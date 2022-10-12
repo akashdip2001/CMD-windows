@@ -20,6 +20,14 @@ all important CMD commands in Microsoft Windows
 # All Save WIFI Passwards // Run cmd in Administrator
     netsh wlan export profile folder=c:\ key=clear
     
+# Lock Your Pendrive // Write protected
+    diskpart
+    list disk
+    select disk [1/2/3 ... ]
+    attributes disk set readonly
+    
+    attributes disk clear redonly
+    
 # Change Color in CMD
     help color
     color 02
