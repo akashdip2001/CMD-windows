@@ -1,6 +1,9 @@
 # CMD-windows
 all important CMD commands in Microsoft Windows
 
+# Creat a Folder
+    mkdir "[folder name]"
+
 # Copy
     go to the folder & click the address-bar & wright 'cmd' enter
     Xcopy "AAAAA <space> BBBBB" D:\"Akash 2001" /E/H/C/I 
@@ -9,7 +12,9 @@ all important CMD commands in Microsoft Windows
      /H = Copy all Hidden folders
      /C = ignore all errors
      /I = confurm all files copy in a particullar folder
-    
+     
+# Delete a folder
+     rd /s /q "C:\Usre\ ... \folder name"
     
 
 # All Save WIFI Passwards // Run cmd in Administrator
