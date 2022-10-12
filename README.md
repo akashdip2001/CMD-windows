@@ -1,6 +1,17 @@
 # CMD-windows
 all important CMD commands in Microsoft Windows
 
+# Copy
+    go to the folder & click the address-bar & wright 'cmd' enter
+    Xcopy "AAAAA <space> BBBBB" D:\"Akash 2001" /E/H/C/I 
+     
+     /E = Copy all sub-folders
+     /H = Copy all Hidden folders
+     /C = ignore all errors
+     /I = confurm all files copy in a particullar folder
+    
+    
+
 # All Save WIFI Passwards // Run cmd in Administrator
     netsh wlan export profile folder=c:\ key=clear
     
