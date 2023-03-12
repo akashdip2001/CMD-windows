@@ -15,6 +15,10 @@ all important CMD commands in Microsoft Windows
      
 # Delete a folder
      rd /s /q "C:\Usre\ ... \folder name"
+     
+# Delete any file [or install EMCO]
+     del /?
+     del /f c:\users\...\desktop\[file name].rar
     
 
 # All Save WIFI Passwards // Run cmd in Administrator
